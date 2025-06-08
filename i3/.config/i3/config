@@ -50,7 +50,7 @@ exec --no-startup-id dex --autostart --environment i3
 # screen before suspend. Use loginctl lock-session to lock your screen.
 # exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # i3lock has been uninstalled >>> replaced by i3lock-color
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork --color=000000 --image=/home/mayknxyz/wallpapers/gopher-top.png  --inside-color=000000 --ring-color=00ADD8 --keyhl-color=ffffff --bshl-color=f38ba8 --verif-text="go run" --wrong-text="err != nil"  
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork --color=000000 --image=/home/mayknxyz/wallpapers/gopher-top.png  --inside-color=000000 --ring-color=00ADD8 --keyhl-color=ffffff --bshl-color=f38ba8 --verif-text="go run" --wrong-text="err != nil"
 
 # Lock the screen
 bindsym Control+Mod1+Delete exec loginctl lock-session
@@ -61,7 +61,7 @@ exec --no-startup-id nm-applet
 
 # Start other 2 monitors, set wallpaper, and set main monitor as primary monitor
 # exec --no-startup-id xrandr --output eDP --below HDMI-A-0 && xrandr --output eDP --right-of HDMI-A-0 && feh --bg-scale ~/wallpapers/girlsitting.jpg
-# exec --no-startup-id xrandr --output HDMI-A-0 --left-of DP-2 && xrandr --output eDP --above HDMI-A-0 && feh --bg-scale ~/wallpapers/streetsig.jpg  
+# exec --no-startup-id xrandr --output HDMI-A-0 --left-of DP-2 && xrandr --output eDP --above HDMI-A-0 && feh --bg-scale ~/wallpapers/streetsig.jpg
 # exec --no-startup-id xrandr --output eDP --primary
 exec --no-startup-id xrandr --output eDP --mode 1920x1080 --pos 0x1080 --rotate normal --output HDMI-A-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1-1 --off
 
@@ -88,14 +88,18 @@ bindsym $mod+Return exec --no-startup-id ghostty
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start rofi
+# Launch application menu
 bindsym $mod+d exec --no-startup-id rofi -show drun -font 'JetBrains Mono 11'
+
+# Launch Rofi shortcuts cheatsheet
+# bindsym $mod+s exec --no-startup-id rofi -show -dmenu -font 'JetBrains Mono 11'
+bindsym $mod+s exec --no-startup-id ~/.config/rofi/scripts/rofi-shortcuts.sh
 
 # open power menu
 bindsym Control+Mod1+Page_Up exec ~/.config/i3/scripts/powermenu
 
 # open google chrome
-bindsym $mod+b exec --no-startup-id google-chrome-stable 
+bindsym $mod+b exec --no-startup-id google-chrome-stable
 for_window [class="^Google-chrome$" urgent="latest"] focus
 bindsym $mod+space [urgent="latest"] focus
 
@@ -103,7 +107,7 @@ bindsym $mod+space [urgent="latest"] focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
-bindsym $mod+l focus right							
+bindsym $mod+l focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -121,9 +125,9 @@ bindsym $mod+Shift+l move right
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 #bindsym $mod+Shift+space floating toggle
@@ -304,7 +308,7 @@ client.background        $base
 # borders
 default_border pixel 1
 #gaps outer 3
-#gaps inner 8 
+#gaps inner 8
 
 # bar (completely yoinked from https://github.com/jifuwater/Cattendeavour/blob/main/i3/config)
 bar {
@@ -316,11 +320,11 @@ bar {
 			separator		$pink
 			background		#000000
 			statusline      	$pink
-			#			border			bg		txt	
-			focused_workspace	#1e1e2eD9		#ff4a01		#ffffff 	
-			active_workspace	#1e1e2eD9	      	#b04b23 	#000000		
-			inactive_workspace	#1e1e2eD9 		#000000		#ffffff		
-			urgent_workspace	#1e1e2eD9    		#ff0000  	#ffffff  	
+			#			border			bg		txt
+			focused_workspace	#1e1e2eD9		#ff4a01		#ffffff
+			active_workspace	#1e1e2eD9	      	#b04b23 	#000000
+			inactive_workspace	#1e1e2eD9 		#000000		#ffffff
+			urgent_workspace	#1e1e2eD9    		#ff0000  	#ffffff
 		}
 }
 
@@ -409,4 +413,3 @@ exec --no-startup-id i3-msg 'workspace number 6'
 
 # Start a polkit authentication agent
 exec --no-startup-id lxpolkit
-

@@ -1,0 +1,19 @@
+[ghostty] Cmd+Shift+F (Mac) / Ctrl+Shift+F (PC): Find
+[ghostty] Cmd+Shift+N (Mac) / Ctrl+Shift+N (PC): Open new window
+[ghostty] Cmd+T (Mac) / Ctrl+T (PC): Create new tab
+[ghostty] Cmd+W (Mac) / Ctrl+W (PC): Close current tab
+[ghostty] Cmd+Shift+[: Switch to previous tab
+[ghostty] Cmd+Shift+]: Switch to next tab
+[ghostty] Cmd+Shift+V (Mac) / Ctrl+Shift+V (PC): Paste text
+[ghostty] Cmd+C (Mac) / Ctrl+C (PC): Copy selected text
+[ghostty] Cmd+Shift+C (Mac) / Ctrl+Shift+C (PC): Copy selected text (alternative)
+[ghostty] Cmd+Plus (=) (Mac) / Ctrl+Plus (=) (PC): Increase font size (Zoom In)
+[ghostty] Cmd+Minus (-) (Mac) / Ctrl+Minus (-) (PC): Decrease font size (Zoom Out)
+[ghostty] Cmd+0 (Mac) / Ctrl+0 (PC): Reset font size
+[ghostty] Cmd+, (Mac) / Ctrl+, (PC): Open settings (config.toml)
+[ghostty] F11: Toggle fullscreen
+[ghostty] Cmd+Shift+B (Mac) / Ctrl+Shift+B (PC): Scroll to bottom (newest output)
+[ghostty] Cmd+Shift+Up (Mac) / Ctrl+Shift+Up (PC): Scroll up
+[ghostty] Cmd+Shift+Down (Mac) / Ctrl+Shift+Down (PC): Scroll down
+[ghostty] Cmd+Shift+PageUp (Mac) / Ctrl+Shift+PageUp (PC): Scroll to top (buffer start)
+[ghostty] Cmd+Shift+PageDown (Mac) / Ctrl+Shift+PageDown (PC): Scroll to bottom (buffer end)

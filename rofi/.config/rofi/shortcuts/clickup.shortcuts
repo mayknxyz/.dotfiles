@@ -1,0 +1,97 @@
+[clickup] T: Create task
+[clickup] R: Create Reminder
+[clickup] S / Cmd+K (Mac) / Ctrl+K (PC): Open Search/Command Center
+[clickup] Option+K (Mac) / Alt+K (PC): Open ClickUp AI
+[clickup] N or P: Open Notepad
+[clickup] Cmd+\ (Mac) / Ctrl+\ (PC): Show/hide left sidebar
+[clickup] Cmd+I (Mac) / Ctrl+I (PC): Scroll to current position in left sidebar
+[clickup] Shift+S: Status (within task)
+[clickup] Shift+M: Comment (within task)
+[clickup] Shift+D: Date (within task)
+[clickup] Shift+A: Assignee (within task)
+[clickup] M: Assign task to self
+[clickup] A: Add tasks to LineUp
+[clickup] Shift+.: Timer (within task)
+[clickup] Shift+L: Tag (within task)
+[clickup] Shift+T: Subtask (within task)
+[clickup] Shift+P: Priority (within task)
+[clickup] Ctrl+Shift+Left/Right Arrow: Navigate between tasks in a List
+[clickup] Shift+A: Go to All tab (Inbox)
+[clickup] Shift+I: Go to Important tab (Inbox)
+[clickup] Shift+O: Go to Other tab (Inbox)
+[clickup] Shift+Z: Go to Snoozed tab (Inbox)
+[clickup] Shift+C: Go to Cleared tab (Inbox)
+[clickup] Shift+1: Toggle Assigned filter (Inbox)
+[clickup] Shift+2: Toggle @Mentions filter (Inbox)
+[clickup] Shift+3: Toggle Unread filter (Inbox)
+[clickup] O or Enter: Open or close notification
+[clickup] Esc: Close notification
+[clickup] J or Down arrow: Next notification
+[clickup] K or Up arrow: Previous notification
+[clickup] ]: Open or close Details sidebar
+[clickup] Shift+Up arrow: Jump to top (Inbox)
+[clickup] Shift+Down arrow: Jump to bottom (Inbox)
+[clickup] Spacebar: Refresh Inbox
+[clickup] E: Clear or unclear (Inbox notification)
+[clickup] Shift+E: Clear all (Inbox notifications)
+[clickup] Z: Snooze (Inbox notification)
+[clickup] Cmd+Z (Mac) / Ctrl+Z (PC): Undo last clear, unclear, or snooze (Inbox)
+[clickup] U: Mark as unread/read (Inbox notification)
+[clickup] W: Watch or stop watching (Inbox notification)
+[clickup] Ctrl+Cmd+T (Mac) / Ctrl+Windows+T (PC): Add or remove from Tray
+[clickup] /: Slash Commands (Text editor)
+[clickup] @: @mention a person (Text editor)
+[clickup] @@: @mention a task (Text editor)
+[clickup] @@@: @mention a Doc (Text editor)
+[clickup] Up arrow: Edit your most recent comment
+[clickup] :: Add an emoji (Text editor)
+[clickup] Cmd+V (Mac) / Ctrl+V (PC): Paste text or images
+[clickup] Cmd+K (Mac) / Ctrl+K (PC): Hyperlink (when text is highlighted)
+[clickup] Cmd+Shift+H (Mac) / Ctrl+Shift+H (PC): Apply last used highlighting color
+[clickup] Cmd+D (Mac) / Ctrl+D (PC): Duplicate selected text
+[clickup] Cmd+Shift+L (Mac) / Ctrl+Shift+L (PC): Align text to the left
+[clickup] Cmd+Shift+R (Mac) / Ctrl+Shift+R (PC): Align text to the right
+[clickup] Cmd+Shift+E (Mac) / Ctrl+Shift+E (PC): Align text to the center
+[clickup] Cmd+Shift+C (Mac) / Ctrl+Shift+C (PC): Inline code formatting
+[clickup] Cmd+Shift+9 (Mac) / Ctrl+Shift+9 (PC): Create a bulleted list
+[clickup] Cmd+Shift+8 (Mac) / Ctrl+Shift+8 (PC): Create a checklist
+[clickup] Cmd+Shift+7 (Mac) / Ctrl+Shift+7 (PC): Create a numbered list
+[clickup] Option+Cmd+1,2,3,4 (Mac) / Alt+Ctrl+1,2,3,4 (PC): Create a heading
+[clickup] Cmd+Shift+M (Mac) / Ctrl+Shift+M (PC): Create a comment from selected text (Docs)
+[clickup] Option+Cmd+T (Mac) / Alt+Ctrl+T (PC): Create a task from selected text (Docs)
+[clickup] Option+Up/Down arrow (Mac) / Alt+Up/Down arrow (PC): Move selected text block up or down (Docs)
+[clickup] Cmd+U (Mac) / Ctrl+U (PC): Upload media (Whiteboard)
+[clickup] V: Select (Whiteboard)
+[clickup] D: Draw (Whiteboard)
+[clickup] E: Eraser (Whiteboard)
+[clickup] H: Hand (Whiteboard)
+[clickup] O: Ellipse (Whiteboard)
+[clickup] R: Rectangle (Whiteboard)
+[clickup] A: Arrow (Whiteboard)
+[clickup] T: Text (Whiteboard)
+[clickup] F: Frame (Whiteboard)
+[clickup] N: Note (Whiteboard)
+[clickup] K: Laser (Whiteboard)
+[clickup] Cmd+Z (Mac) / Ctrl+Z (PC): Undo (Whiteboard)
+[clickup] Cmd+Shift+Z (Mac) / Ctrl+Shift+Z (PC): Redo (Whiteboard)
+[clickup] Cmd+X (Mac) / Ctrl+X (PC): Cut (Whiteboard)
+[clickup] Cmd+C (Mac) / Ctrl+C (PC): Copy (Whiteboard)
+[clickup] Cmd+V (Mac) / Ctrl+V (PC): Paste (Whiteboard)
+[clickup] Cmd+A (Mac) / Ctrl+A (PC): Select all (Whiteboard)
+[clickup] Delete: Delete (Whiteboard)
+[clickup] Cmd+D (Mac) / Ctrl+D (PC): Duplicate (Whiteboard)
+[clickup] Cmd+/ (Mac) / Ctrl+/ (PC): Toggle dark/light mode (Whiteboard)
+[clickup] Cmd+' (Mac) / Ctrl+' (PC): Toggle grid (Whiteboard)
+[clickup] +: Zoom in (Whiteboard)
+[clickup] -: Zoom out (Whiteboard)
+[clickup] Shift+0: Zoom to 100% (Whiteboard)
+[clickup] Shift+1: Zoom to fit (Whiteboard)
+[clickup] Shift+2: Zoom to selection (Whiteboard)
+[clickup] ]: Bring to front (Whiteboard)
+[clickup] Option+] (Mac) / Alt+] (PC): Bring forward (Whiteboard)
+[clickup] Option+[ (Mac) / Alt+[ (PC): Send backward (Whiteboard)
+[clickup] [: Send to back (Whiteboard)
+[clickup] Cmd+G (Mac) / Ctrl+G (PC): Group (Whiteboard)
+[clickup] Cmd+Shift+G (Mac) / Ctrl+Shift+G (PC): Ungroup (Whiteboard)
+[clickup] Shift+H: Flip horizontally (Whiteboard)
+[clickup] Shift+V: Flip vertically (Whiteboard)
