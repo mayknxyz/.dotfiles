@@ -7,15 +7,8 @@ configuration {
     disable-history:       false;
     sidebar-mode:          false;
 
-    // Keep this line
-    // modi: "run,drun,window,shortcuts";
 }
 
 @import "~/.config/rofi/DarkTransparentColors.rasi" // Keep this line if you want your theme
 
 // ... all your other styling blocks (window, mainbox, message, etc.)
-
-// Remove this entire block if it exists:
- modi {
-     shortcuts: "~/.config/rofi/rofi-shortcuts.sh";
-}
